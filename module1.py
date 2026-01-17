@@ -80,4 +80,8 @@ def run_app():
                     f"Check local {data['type'].lower()} guidelines to reduce landfill impact.")
 
 if __name__ == "__main__":
+<<<<<<< HEAD
     run_app()
+=======
+    run_app()
+>>>>>>> 19d7e78f0649f2fe4dd8bf4103123ac552691e37
