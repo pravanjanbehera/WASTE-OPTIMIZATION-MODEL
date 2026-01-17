@@ -87,7 +87,7 @@ def create_graphs():
     def disposal_method(waste):
         if waste == "Organic":
             return "Compost"
-        elif waste == "Paper":
+        elif waste in ("Paper", "metal"):
             return "Recycle"
         else:
             return "Landfill"
