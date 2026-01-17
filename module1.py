@@ -25,7 +25,7 @@ class WasteIntelligence:
             "Hazardous Waste": {"risk": 10, "type": "Bio-Hazard", "desc": "High infection risk; toxic if leaked."},
             "Organic Waste": {"risk": 1, "type": "Organic", "desc": "Perfect for composting; low footprint."},
             "Old Battery": {"risk": 9, "type": "Electronic", "desc": "Contains heavy metals like Lead/Lithium."},
-            "Cardboard Box": {"risk": 2, "type": "Paper", "desc": "Highly recyclable and biodegradable."},
+            "Cardboard Box": {"risk": 2, "type": "", "desc": "Highly recyclable and biodegradable."},
             "Aluminium Can": {"risk": 4, "type": "Metal", "desc": "Infinitely recyclable with low energy."}
         }
 
@@ -80,8 +80,4 @@ def run_app():
                     f"Check local {data['type'].lower()} guidelines to reduce landfill impact.")
 
 if __name__ == "__main__":
-<<<<<<< HEAD
     run_app()
-=======
-    run_app()
->>>>>>> 19d7e78f0649f2fe4dd8bf4103123ac552691e37
